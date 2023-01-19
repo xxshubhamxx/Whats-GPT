@@ -2,7 +2,7 @@ from flask import Flask, request
 from dotenv import load_dotenv
 from twilio.twiml.messaging_response import Body, Message, Redirect, MessagingResponse
 from twilio.rest import Client
-from app.openai_chat.openai_bot import ai_response
+from wa_files.openai_chat.openai_bot import ai_response
 import os
 
 load_dotenv()
