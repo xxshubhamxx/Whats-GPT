@@ -1,7 +1,14 @@
-This is a Whatsapp chatbot application made using OpenAI and Twillio. I made this because it allows me to use ChatGPT even when the website is down. I also wanted to use ChatGPT on Whatsapp instead of website or telegram. Although there are some repositories like [this](https://github.com/danielgross/whatsapp-gpt) and [this](https://github.com/pascalroget/whatsgpt) available that claim to provide this but none of them worked for me, so I created my own. 
+### About:
+
+This is a Whatsapp chatbot application made using OpenAI and Twillio. 
 
 
-Steps to make this code work for on your local machine:
+### Motivation:
+
+I made this because it allows me to use ChatGPT even when the website is down. I also wanted to use ChatGPT on Whatsapp instead of website or telegram. Although there are some repositories like [this](https://github.com/danielgross/whatsapp-gpt), [this](https://github.com/pascalroget/whatsgpt) and [this](https://github.com/Santosl2/wpp-chatgpt) available that claim to provide this but none of them worked for me even on my local system, let alone deploying online. I got a little bit free time after exams ended so I created my own bot that works seamlessly on Windows and Linux (not tested on Mac but since Mac is based on Unix shell, it should work there too). 
+
+
+### Steps to make this code work on your local machine:
 
 1. Create a Twilio account (requires you to verify phone number).
 2. Go to Twilio Console and get a phone number from Twilio Console.
@@ -15,6 +22,11 @@ Steps to make this code work for on your local machine:
 10. Keep learning.
 
 
-Steps to deploy it online:
+### Steps to deploy the code online:
 
 All steps except 3,4 and 5 is same as earlier. Clone this repository to your github account and instead of running it locally, sign up for a new account on https://render.com and click the option to create a web service. Authorize github and connect to the cloned repository. Make sure your Build Command is `pip install -r requirements.txt` and Start Command is set to `gunicorn app:app`. Click the `Advanced` button present above the `Create Web Service` and configure the 3 environment variables as mentioned in Step 3 earlier. Leave other settings as default. Click `Create Web Service`  button which would start the build. Once the build is successful, you'll receive a URL like `https://helloworld.onrender.com`. Go to that URL and make sure it says "Home Page". Copy that link. And continue from Step 6 present above. The "/message" needs to be appended for this link too.
+
+
+### Screenshot:
+
+![Screenshot](./ss.jpeg)
