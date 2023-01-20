@@ -5,7 +5,7 @@ This is a Whatsapp chatbot application made using OpenAI and Twillio.
 
 ### Motivation:
 
-I made this because it allows me to use ChatGPT even when the website is down. I also wanted to use ChatGPT on Whatsapp instead of website or telegram. Although there are some repositories like [this](https://github.com/danielgross/whatsapp-gpt), [this](https://github.com/pascalroget/whatsgpt) and [this](https://github.com/Santosl2/wpp-chatgpt) available that claim to provide this but none of them worked for me even on my local system, let alone deploying online. I got a little bit free time after exams ended so I created my own bot that works seamlessly on Windows and Linux (not tested on Mac but since Mac is based on Unix shell, it should work there too). 
+I made this because it allows me to use ChatGPT even when the website is down. I also wanted to use ChatGPT on Whatsapp instead of website or telegram. Although there are many repositories like [this](https://github.com/danielgross/whatsapp-gpt), [this](https://github.com/pascalroget/whatsgpt) and [this](https://github.com/Santosl2/wpp-chatgpt) available that claim to provide this but none of them worked for me even on my local system, let alone deploying online. I got a little bit free time after exams ended so I created my own bot that works seamlessly on Windows and Linux (not tested on Mac but since Mac is based on Unix shell, it should work there too). 
 
 
 ### Steps to make this code work on your local machine:
