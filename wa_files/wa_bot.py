@@ -24,12 +24,12 @@ def respond(my_msg):
     # messenger = WhatsApp(os.getenv('WA_ACCESS_TOKEN'), phone_number_id=os.getenv('WA_PHONE_ID'))
     # messenger.send_message(str(response)[58:-21],os.getenv('MY_PHONE_NUMBER'))
     
-    message = client.messages.create(
-                              from_='whatsapp:+14155238886',
-                              body=my_msg,
-                              to='whatsapp:+918217063115'
-                          )
-    print(message.sid)
+    # message = client.messages.create(
+    #                           from_='whatsapp:+14155238886',
+    #                           body=my_msg,
+    #                           to='whatsapp:+918217063115'
+    #                       )
+    # print(message.sid)
     return str(response)
 
 @app.route('/')  
